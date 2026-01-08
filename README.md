@@ -40,11 +40,78 @@ The database contains the following tables:
 - SQL*Plus
 
 ## 📂 Project Structure
+zomato-sql-database-project/
+|
+├── ER-diagram/
+│ ├── ER_Diagram_Databse.png # ER diagram image
+│ └── ER_Diagram_Databse.pdf # ER diagram PDF
+|
+├── Insert_Data/
+│ └── Data_Insertion_Queries.pdf # SQL Queries to Add Data in all tables
+│
+├── Report/
+│ └── Zomato_SQL_Database_Project_Report.pdf # Full project report
+│
+├──  Schema/
+|  └── Table_Creation_Queries.pdf # SQL Queries to Create all tables
+|
+└──  README.md # Project description
+
+## Database Tables
+The database contains the following main tables:
+- **CUSTOMER** – stores customer information  
+- **ADDRESS** – stores customer addresses  
+- **RESTAURANT** – stores restaurant information  
+- **CATEGORY** – stores restaurant categories  
+- **MENU** – stores menu information for restaurants  
+- **MENU_ITEM** – stores individual menu items  
+- **ORDERS** – stores order details  
+- **ORDER_ITEM** – stores order item details  
+- **PAYMENT** – stores payment information  
+- **DELIVERY_PERSON** – stores delivery personnel info  
+- **REVIEW** – stores customer reviews  
+
+## Sample SQL Queries
+- Retrieve all orders for a specific customer  
+- Calculate total sales per restaurant  
+- List menu items available for a restaurant  
+- Fetch customer reviews for a restaurant  
+- Track delivery status of orders  
+
+## Future Enhancements
+- Add stored procedures to automate repetitive tasks  
+- Implement triggers for automated actions and data integrity  
+- Integrate the database with backend applications  
+- Introduce role-based access control for security  
+- Optimize queries with indexing and performance improvements  
+- Add support for coupons and loyalty programs  
 
 ## ▶️ How to Run the Project
-1. Create tables using `create_tables.sql`
-2. Insert sample data using `insert_dummy_data.sql`
-3. Execute queries from the `queries` folder
+
+Follow these steps to set up and run the Zomato SQL Database Project:
+
+* **Open Your SQL Environment**  
+  Use Oracle SQL Developer, MySQL Workbench, or any compatible SQL environment to execute the scripts.
+
+* **Create the Database Tables**  
+  - Open the SQL script: `Table_Creation_Queries.pdf`.
+  - Execute all queries to create the tables in the correct order.  
+  - Ensure that primary keys, foreign keys, and constraints are created successfully.
+
+* **Insert Sample Data**  
+  - Open the SQL script: `Data_Insertion_Queries.pdf`.  
+  - Execute all queries to populate the tables with sample data.  
+  - This will create 10 sample records for each table while maintaining all relationships.
+
+* **Verify the Data**  
+  - Use `SELECT * FROM <table_name>;` to check that tables are populated correctly.  
+  - Check relationships between tables to ensure referential integrity is maintained.
+
+* **View ER Diagram and Reports (Optional)**  
+  - Open `ER-diagram/ER_Diagram_Databse.png` or `ER_Diagram_Databse.pdf` to see the database design.  
+  - Open `report/Zomato_SQL_Database_Project_Report.pdf` for detailed documentation of tables, queries, and project explanation.
+
+
 
 ## 📌 Author
 **Gaznavi Sheikh**
