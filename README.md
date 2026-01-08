@@ -40,17 +40,17 @@ The database contains the following tables:
 - SQL*Plus
 
 ## 📂 Project Structure
-zomato-sql-database-project/
-├── ER-diagram/
-│ ├── ER_Diagram_Database.png # ER diagram image
-│ └── ER_Diagram_Database.pdf # ER diagram PDF
-├── Insert_Data/
-│ └── Data_Insertion_Queries.pdf # SQL queries to insert data into all tables
-├── Report/
-│ └── Zomato_SQL_Database_Project_Report.docx # Full project report
-├── Schema/
-│ └── Table_Creation_Queries.pdf # SQL queries to create all tables
-└── README.md # Project description
+#zomato-sql-database-project/
+#├── ER-diagram/
+#│ ├── ER_Diagram_Database.png # ER diagram image
+#│ └── ER_Diagram_Database.pdf # ER diagram PDF
+#├── Insert_Data/
+#│ └── Data_Insertion_Queries.pdf # SQL queries to insert data into all tables
+#├── Report/
+#│ └── Zomato_SQL_Database_Project_Report.docx # Full project report
+#├── Schema/
+#│ └── Table_Creation_Queries.pdf # SQL queries to create all tables
+#└── README.md # Project description
 
 ## Database Tables
 The database contains the following main tables:
