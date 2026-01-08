@@ -40,6 +40,7 @@ The database contains the following tables:
 - SQL*Plus
 
 ## 📂 Project Structure
+```
 #zomato-sql-database-project/
 #├── ER-diagram/
 #│ ├── ER_Diagram_Database.png # ER diagram image
@@ -51,6 +52,7 @@ The database contains the following tables:
 #├── Schema/
 #│ └── Table_Creation_Queries.pdf # SQL queries to create all tables
 #└── README.md # Project description
+```
 
 ## Database Tables
 The database contains the following main tables:
