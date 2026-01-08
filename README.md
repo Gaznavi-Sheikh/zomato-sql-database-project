@@ -38,3 +38,13 @@ The database contains the following tables:
 ## 🛠️ Technologies Used
 - Oracle SQL
 - SQL*Plus
+
+## 📂 Project Structure
+
+## ▶️ How to Run the Project
+1. Create tables using `create_tables.sql`
+2. Insert sample data using `insert_dummy_data.sql`
+3. Execute queries from the `queries` folder
+
+## 📌 Author
+**Gaznavi Sheikh**
