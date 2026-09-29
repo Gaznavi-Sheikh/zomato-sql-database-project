@@ -75,6 +75,15 @@ The database contains the following main tables:
 - Fetch customer reviews for a restaurant  
 - Track delivery status of orders  
 
+The project now also includes a full advanced SQL query layer under
+`database/queries/` (basic filtering/joins, plus advanced business
+analytics), covering multi-table joins, subqueries and correlated
+subqueries, `EXISTS`/`NOT EXISTS`, CTEs, conditional aggregation, date/time
+analysis, window functions (`RANK`, `DENSE_RANK`, `ROW_NUMBER`, `LAG`/`LEAD`),
+running totals, top-N-per-group ranking, and historical order-price
+analysis. See `docs/query-analysis.md` for the query-performance notes
+behind them.
+
 ## Future Enhancements
 - Add stored procedures to automate repetitive tasks  
 - Implement triggers for automated actions and data integrity  
